@@ -4,26 +4,28 @@
 
 **Document ID:** RCG-003
 **Title:** Research Asset & Information Architecture Standard
-**Version:** 1.0 (Draft)
-**Status:** Foundational Governance
+**Version:** 1.0
+**Status:** Canonical Foundational Governance
 **Authority Level:** Core Operational Standard
 
 ---
 
 # 1. Purpose
 
-This standard defines the organizational architecture governing all research assets within the Unified Composition Guide (UCG) Research Catalogue.
+This standard establishes the organizational architecture governing all research assets within the Unified Composition Guide (UCG) Research Catalogue.
 
-Where RCG-001 establishes the purpose of the Research Catalogue, and RCG-002 governs the transformation of research into reusable framework knowledge, RCG-003 establishes how research assets are organized, identified, related, and maintained throughout their lifecycle.
+Where RCG-001 establishes the purpose of the Research Catalogue, and RCG-002 governs the transformation of research into reusable framework knowledge, RCG-003 defines how research assets are organized, identified, related, and maintained throughout their lifecycle.
 
-The objective is to ensure that institutional knowledge remains:
+Its purpose is to ensure that institutional knowledge remains:
 
 * discoverable
 * traceable
 * maintainable
 * extensible
 * technology-independent
-* reusable across future generations of the UCG ecosystem
+* reusable across future editions of the Unified Composition Guide
+
+This standard governs information architecture rather than software implementation.
 
 ---
 
@@ -31,7 +33,7 @@ The objective is to ensure that institutional knowledge remains:
 
 Knowledge shall possess one authoritative location.
 
-Every additional occurrence should reference the authoritative source rather than duplicate it.
+Additional occurrences should reference the authoritative source rather than duplicate it.
 
 The architecture therefore prioritizes:
 
@@ -47,21 +49,23 @@ Repository organization exists to support knowledge—not define it.
 
 # 3. Information Architecture Philosophy
 
-The Research Catalogue is an information architecture rather than merely a file repository.
+The Research Catalogue is an editorial information architecture rather than merely a document repository.
 
-Its structure must remain valid regardless of storage technology, repository platform, or publication medium.
+Its organizational principles shall remain valid regardless of storage technology, repository platform, or publication medium.
 
 Physical storage may evolve.
 
 Logical organization shall remain stable.
 
-Semantic relationships shall remain persistent.
+Editorial relationships shall remain persistent.
+
+This separation preserves institutional continuity independent of technology.
 
 ---
 
-# 4. The Three Organizational Dimensions
+# 4. Organizational Dimensions
 
-Every research asset exists simultaneously within three independent organizational dimensions.
+Every research asset exists simultaneously within three complementary organizational dimensions.
 
 ## Physical Organization
 
@@ -71,8 +75,8 @@ Examples include:
 
 * repositories
 * directories
-* archives
 * cloud storage
+* archives
 * document libraries
 
 Physical organization supports storage and retrieval.
@@ -87,30 +91,30 @@ Examples include:
 
 * Source
 * Research Session
-* Extraction
+* Extraction Record
 * Knowledge Article
-* Framework Proposal
+* Framework Candidate
 * Governance Document
 * Editorial Review
 * Publication Package
 
-Logical organization defines lifecycle and governance.
+Logical organization governs lifecycle and editorial responsibility.
 
 ---
 
 ## Semantic Organization
 
-Defines what the knowledge is about.
+Defines what knowledge concerns.
 
 Examples include:
 
-* subject domains
+* subject areas
 * keywords
 * topical classifications
+* editorial relationships
 * cross-references
-* conceptual relationships
 
-Semantic organization enables discovery independent of physical storage.
+Semantic organization supports discovery independent of physical storage.
 
 ---
 
@@ -122,20 +126,22 @@ The Research Catalogue recognizes the following canonical asset classes.
 
 Original research material.
 
-Examples:
+Examples include:
 
 * books
-* papers
+* journals
+* academic papers
 * manuals
-* interviews
+* standards
 * websites
-* transcripts
+* interviews
+* historical documents
 
 ---
 
 ## Research Sessions
 
-Working analysis performed against one or more sources.
+Working investigations conducted against one or more sources.
 
 ---
 
@@ -147,31 +153,33 @@ Structured reusable observations derived from research.
 
 ## Knowledge Articles
 
-Synthesized subject-oriented reference material intended for long-term reuse.
+Editorially synthesized reference material intended for long-term reuse.
+
+Knowledge Articles represent durable institutional knowledge rather than raw research.
 
 ---
 
 ## Framework Candidates
 
-Research identified as potential additions to the Unified Composition Guide.
+Research identified as potential additions or modifications to the Unified Composition Guide.
 
 ---
 
 ## Governance Documents
 
-Policies, standards, procedures, and operational guidance governing the catalogue itself.
+Policies, standards, protocols, and operational guidance governing the Research Catalogue.
 
 ---
 
 ## Publication Packages
 
-The complete editorial package required for canonical publication.
+The editorial assets necessary for canonical publication.
 
 ---
 
 ## Indices
 
-Organizational assets used for discovery, navigation, and relationship management.
+Supporting organizational assets that improve navigation and discovery.
 
 ---
 
@@ -197,13 +205,13 @@ Publication Record
 
 Not every project will generate every asset.
 
-The package model defines the ideal editorial progression.
+The package model represents the preferred editorial progression from research to published knowledge.
 
 ---
 
 # 7. Repository Architecture
 
-Repository implementation should reflect logical organization rather than storage convenience.
+Repository implementations should reflect logical organization rather than storage convenience.
 
 Typical architectural layers include:
 
@@ -219,13 +227,15 @@ Typical architectural layers include:
 08_Indices
 ```
 
-Individual implementations may vary provided logical relationships remain intact.
+Individual repository implementations may differ provided that logical relationships remain consistent.
+
+Repository technology shall not dictate information architecture.
 
 ---
 
-# 8. Asset Identification Standards
+# 8. Asset Identification Standard
 
-Every canonical asset shall possess a persistent identifier.
+Every canonical research asset shall possess a persistent identifier.
 
 Identifiers should remain stable throughout the asset lifecycle.
 
@@ -233,7 +243,9 @@ Examples include:
 
 ```text
 RCG-001
+
 RCG-002
+
 RCG-003
 
 SRC-000001
@@ -247,13 +259,13 @@ KA-000001
 FCP-000001
 ```
 
-Identifiers are permanent and should never be reused.
+Identifiers are permanent and should never be reassigned.
 
 ---
 
 # 9. Metadata Standard
 
-Every canonical asset shall maintain standardized metadata sufficient to support governance and discovery.
+Every canonical asset shall maintain standardized metadata sufficient to support governance, discovery, and editorial traceability.
 
 Recommended metadata includes:
 
@@ -269,47 +281,62 @@ Recommended metadata includes:
 * Review Status
 * Subject Classification
 * Keywords
-* Relationships
+* Related Assets
 * Repository Location
 
-Metadata should remain independent of file names.
+Metadata should remain independent of filenames and repository structure.
 
 ---
 
-# 10. Relationship Architecture
+# 10. Knowledge Relationships
 
-Knowledge becomes increasingly valuable as explicit relationships accumulate.
+Research assets rarely exist in isolation.
 
-Assets should define relationships wherever applicable.
+Where meaningful relationships exist between assets, they should be documented to improve discoverability, editorial traceability, and framework understanding.
 
-Relationship categories include:
+Relationships supplement repository organization by recording how knowledge contributes to, depends upon, or extends other knowledge.
+
+Knowledge relationships support:
+
+* editorial navigation
+* framework maintenance
+* impact assessment
+* knowledge reuse
+* future extensibility
+
+The Research Catalogue recognizes the following core relationship types:
 
 * Derived From
 * Supports
 * Extends
 * References
-* Referenced By
-* Related Topics
+* Related To
 * Parent
 * Child
 * Supersedes
-* Superseded By
 
-Relationship mapping transforms isolated documents into an interconnected knowledge system.
+These relationship types are intentionally limited to those required for current editorial operations.
+
+Additional relationship categories may be introduced through future governance when operational requirements justify their inclusion.
 
 ---
 
 # 11. Subject Library
 
-Subject organization shall be based upon synthesized knowledge rather than directory structures.
+The Subject Library provides the primary semantic organization of the Research Catalogue.
 
-The Subject Library serves as the semantic organization layer of the Research Catalogue.
+Unlike a traditional index, Subject Library entries contain editorially synthesized knowledge rather than merely pointing to documents.
 
-Unlike traditional indices, Subject Library entries contain editorially synthesized knowledge rather than simple references.
+Knowledge Articles may contribute to multiple subject areas simultaneously.
 
-A single Knowledge Article may participate in multiple subjects simultaneously.
+The Subject Library therefore complements physical repository organization by organizing knowledge according to editorial subject matter rather than storage location.
 
-Subject organization therefore supplements—not replaces—repository structure.
+Subject organization supports:
+
+* discovery
+* editorial continuity
+* knowledge reuse
+* institutional maintenance
 
 ---
 
@@ -320,15 +347,15 @@ Canonical publication consists of more than storing a document.
 Publication should include:
 
 * canonical asset
-* metadata
+* standardized metadata
 * relationship updates
-* subject updates
+* subject library updates
 * cross-references
-* changelog
+* changelog updates
 * version registration
 * repository indexing
 
-Publication completes integration into institutional knowledge.
+Publication completes the integration of research into institutional knowledge.
 
 ---
 
@@ -336,7 +363,7 @@ Publication completes integration into institutional knowledge.
 
 Storage technologies will evolve.
 
-Repository platforms will change.
+Repository platforms may change.
 
 Directory structures may be reorganized.
 
@@ -356,15 +383,29 @@ Examples include:
 * inconsistent identifiers
 * undocumented relationships
 * ambiguous subject placement
-* technology-dependent structures
+* technology-dependent organization
 * orphaned assets
 * undocumented supersession
 
-Architectural consistency is considered a governance responsibility.
+Architectural consistency is an editorial responsibility.
 
 ---
 
-# 15. Relationship to Previous Governance
+# 15. Architectural Continuity
+
+This standard intentionally distinguishes between:
+
+* physical organization
+* logical organization
+* editorial relationships
+
+Together these complementary organizational layers provide sufficient structure to support the current objectives of the Research Catalogue while remaining extensible enough to accommodate future growth without requiring fundamental architectural revision.
+
+The governance established herein defines principles rather than implementation.
+
+---
+
+# 16. Relationship to Previous Governance
 
 RCG-001 defines:
 
@@ -372,11 +413,11 @@ RCG-001 defines:
 
 RCG-002 defines:
 
-> **How research becomes reusable knowledge.**
+> **How research becomes reusable framework knowledge.**
 
 RCG-003 defines:
 
-> **How research assets are organized into a durable institutional information architecture.**
+> **How research assets are organized, identified, and related within a durable institutional information architecture.**
 
 Together these three documents establish the constitutional foundation of the Research Catalogue.
 
@@ -384,7 +425,7 @@ Together these three documents establish the constitutional foundation of the Re
 
 # Foundational Statement
 
-> Knowledge acquires enduring value only when it can be located, understood, verified, related, and reused. The purpose of this standard is to ensure that every research asset contributes to a coherent institutional architecture in which organization serves understanding, relationships preserve context, and structure enables future discovery independent of technology.
+> Knowledge acquires enduring value only when it can be located, understood, verified, related, and reused. The purpose of this standard is to ensure that every research asset contributes to a coherent institutional architecture in which organization serves understanding, relationships preserve context, and structure enables future discovery while remaining focused on the continued development and publication of the Unified Composition Guide.
 
 ---
 
@@ -396,7 +437,7 @@ Together these three documents establish the constitutional foundation of the Re
 
 **Version:** 1.0
 
-**Status:** Draft
+**Status:** Canonical
 
 **Authority:** Core Operational Standard
 
@@ -412,7 +453,17 @@ Together these three documents establish the constitutional foundation of the Re
 * RCG-004 — Research Editorial Standards
 * RCG-005 — Research Publication & Version Control Standard
 
+**Supersedes:** None
+
+**Superseded By:** —
+
+**Approved:** __________________
+
 **Review Cycle:** As Required
+
+**Keywords:**
+
+research architecture, information architecture, research assets, governance, metadata, subject library, publication, organization
 
 ---
 
