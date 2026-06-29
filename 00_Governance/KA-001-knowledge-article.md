@@ -4,9 +4,19 @@ Unified Composition Guide (UCG) Research Catalogue
 
 Document ID: KA-001
 Title: Knowledge Article
-Version: 1.0
+Version: 1.1
 Status: Operational Template
 Authority Level: Institutional Knowledge Artifact
+
+---
+
+Purpose
+
+A Knowledge Article represents the canonical expression of enduring institutional knowledge derived through research.
+
+Knowledge Articles preserve understanding independently of framework implementation.
+
+Their purpose is to establish reusable institutional knowledge capable of supporting multiple generations of the Unified Composition Guide.
 
 ---
 
@@ -22,7 +32,7 @@ Date Created:
 
 Current Version:
 
-Editorial Confidence:
+Editorial Confidence
 
 ☐ Verified
 
@@ -54,36 +64,41 @@ Related Knowledge Articles:
 
 Executive Summary
 
-Provide a concise summary of the enduring knowledge established by this article.
+Provide a concise summary of the enduring institutional knowledge established by this article.
 
-The summary should communicate the principal insight independently of the original source material.
+The summary should remain understandable without consulting the originating sources.
 
 ---
 
 1. Core Principle
 
-State the primary principle established by this article.
+State the principal institutional principle established by this article.
 
-This section should be concise, declarative, and implementation-independent.
+The Core Principle should be:
 
-The Core Principle should remain valid even if future framework implementations change.
+- concise
+- declarative
+- implementation-independent
+- enduring
+
+Future framework revisions should not require modification of the Core Principle.
 
 ---
 
 2. Discussion
 
-Provide a structured explanation of the principle.
+Develop the Core Principle through structured editorial discussion.
 
 Discussion may include:
 
 - conceptual development
-- supporting reasoning
-- historical perspective
+- historical context
 - technical explanation
+- operational implications
 - limitations
-- applicable contexts
+- supporting examples
 
-The objective is understanding rather than exhaustive documentation.
+Discussion should promote understanding rather than exhaustive documentation.
 
 ---
 
@@ -99,21 +114,21 @@ Possible evidence includes:
 - observed practice
 - editorial synthesis
 
-Evidence should support confidence without overwhelming the article.
+Evidence should justify confidence while remaining concise.
 
 ---
 
 4. Generalized Knowledge
 
-Describe how the principle extends beyond the original source.
+Describe the enduring understanding that extends beyond the originating source.
 
 Questions to consider:
 
-- What broader pattern has been identified?
-- How does this knowledge generalize?
-- What enduring understanding has emerged?
+- What recurring pattern has emerged?
+- What broader principle has been identified?
+- Why should this knowledge remain valuable?
 
-This section transforms source-specific observations into institutional knowledge.
+This section transforms source-specific observations into institutional understanding.
 
 ---
 
@@ -123,19 +138,19 @@ Record significant editorial insights.
 
 Examples include:
 
-- unresolved considerations
-- competing interpretations
 - limitations
-- future opportunities
-- contextual nuances
+- competing interpretations
+- contextual considerations
+- unresolved questions
+- future refinement opportunities
 
-These observations assist future editorial refinement.
+These observations support future editorial development.
 
 ---
 
-6. Relationships
+6. Knowledge Relationships
 
-Identify meaningful relationships to existing institutional knowledge.
+Identify meaningful relationships to other institutional knowledge.
 
 Possible relationships include:
 
@@ -159,21 +174,81 @@ Potential Duplicate:
 
 ---
 
-Knowledge Tree(s):
+Related Knowledge Articles:
 
 ---
 
-Subject Library:
+Knowledge relationships organize understanding independently of framework implementation.
 
 ---
 
+7. Knowledge Tree Placement
+
+Identify where this article belongs within the institutional knowledge structure.
+
+Primary Knowledge Tree
+
 ---
 
-7. Framework Integration Assessment
+Secondary Knowledge Tree(s)
 
-This section evaluates possible contributions to the Unified Composition Guide.
+---
 
-It is intentionally advisory.
+Knowledge Path
+
+Example:
+
+Composition
+
+↓
+
+Narrative
+
+↓
+
+Character
+
+↓
+
+Behavior
+
+↓
+
+Microexpression
+
+---
+
+Parent Knowledge Article(s)
+
+---
+
+Potential Child Knowledge Articles
+
+---
+
+Related Branches
+
+---
+
+Knowledge Maturity
+
+☐ Emerging
+
+☐ Developing
+
+☐ Established
+
+☐ Foundational
+
+Knowledge Tree placement organizes institutional understanding independently of framework architecture.
+
+---
+
+8. Framework Integration Assessment
+
+This assessment evaluates possible implications for the Unified Composition Guide.
+
+It is advisory only.
 
 It does not modify the framework.
 
@@ -183,9 +258,9 @@ Recommended Disposition
 
 ☐ Subject Library Entry
 
-☐ Supports Existing Framework
+☐ Supports Existing Module
 
-☐ Revise Existing Framework Component
+☐ Existing Module Revision
 
 ☐ New Framework Candidate
 
@@ -199,7 +274,7 @@ Recommended Disposition
 
 ---
 
-Proposed Authority Layer
+Recommended Authority Layer
 
 ☐ Layer 0 — Constitutional Core
 
@@ -237,47 +312,51 @@ Examples:
 
 Editorial Rationale
 
-Explain why these recommendations are appropriate.
+Explain the reasoning supporting these recommendations.
 
-These observations form the basis for any future Framework Candidate but do not themselves constitute implementation.
+Recommendations should derive naturally from the institutional knowledge established by this article.
 
 ---
 
-8. Future Research
+9. Future Research
 
 Identify opportunities for continued investigation.
 
 Possible examples:
 
-- additional sources
-- comparative studies
-- validation work
-- framework implications
+- validation studies
+- comparative sources
+- conflicting viewpoints
+- implementation studies
 - unresolved questions
 
-Institutional knowledge remains capable of refinement.
+Institutional knowledge remains subject to continual refinement.
 
 ---
 
-9. Canonical Statement
+10. Canonical Statement
 
 Summarize the enduring institutional knowledge established by this article.
 
-This statement should represent the article's most stable and reusable conclusion.
+This statement should represent the most stable and reusable expression of the knowledge.
 
-It should remain understandable independent of the originating source.
+It should remain understandable independent of both the original source and future framework implementations.
 
 ---
 
 Linked Records
+
+Source Record(s):
+
+Research Session(s):
+
+Extraction Record(s):
 
 Framework Candidate(s):
 
 Editorial Review(s):
 
 Canonical Module(s):
-
-Related Knowledge Articles:
 
 ---
 
@@ -307,4 +386,16 @@ Last Updated:
 
 ---
 
-End of KA-001 — Knowledge Article v1.0
+Architectural Principle
+
+A Knowledge Article preserves institutional understanding.
+
+It does not prescribe framework implementation.
+
+Framework implementation is considered separately through Framework Candidates and subsequent editorial review.
+
+Knowledge therefore remains durable while framework architecture remains adaptable.
+
+---
+
+End of KA-001 — Knowledge Article v1.1
